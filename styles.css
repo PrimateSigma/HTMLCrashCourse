@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
 
 body{
 
@@ -28,20 +28,23 @@ body{
     }
 
     h1 {
+        font-family: Lobster Two, sans-serif;
         color: #333;
-        font-size: 2.5em;
+        font-size: 36pt;
         text-align: center;
     }
     h3 {
+        font-family: Lobster Two, sans-serif;
         color: #162e5a;
-        font-size: 1.5em;
+        font-size: 1.6em;
         text-align: center;
         margin-top: 0.5em;
         background-color: #ebdba9;
     }
 
     b {
-        font-size: 110%;
+        font-family: Lobster Two, sans-serif;
+        font-size: 120%;
     }
 
     ul {
@@ -54,11 +57,17 @@ body{
         font-size: 0.94em;
     }
 
+    h4 {
+        font-family: Lobster Two, sans-serif;
+                font-size: 16pt;
+        text-align: center;
+    }
+
     .image-row {
         
         display: inline-flex;
         gap: 2%;
-        margin-top: 20px;
+        margin-top: 4px;
     }
 
     .image-row img {
